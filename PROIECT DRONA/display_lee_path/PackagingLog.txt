@@ -1,0 +1,25 @@
+ant:
+<ant>
+  <mkdir dir="D:\PROIECT DRONA\display_lee_path\for_redistribution" />
+  <mkdir dir="D:\PROIECT DRONA\display_lee_path\for_testing" />
+  <mkdir dir="D:\PROIECT DRONA\display_lee_path\for_redistribution_files_only" />
+</ant>
+mcc -C -o display_lee_path -W WinMain:display_lee_path -T link:exe -d 'D:\PROIECT DRONA\display_lee_path\for_testing' -v 'D:\PROIECT DRONA\display_lee_path.m' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "D:\PROIECT DRONA" to Compiler path instance.] 
+Parsing file "D:\PROIECT DRONA\display_lee_path.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 3 temporary MEX authorization files.
+Removing: 'C:\Users\MAHA\AppData\Local\Temp\mathworks_tmp_00a4c8021_2636.auth'.
+Removing: 'C:\Users\MAHA\AppData\Local\Temp\mathworks_tmp_00a4c18860_2636.auth'.
+Removing: 'C:\Users\MAHA\AppData\Local\Temp\mathworks_tmp_00a4c9970_2636.auth'.
+Generating file "D:\PROIECT DRONA\display_lee_path\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\compiler\Resources\default_icon.ico to D:\PROIECT DRONA\display_lee_path\for_testing\display_lee_path.exe.
+Attempting to embed the CTF archive into the application D:\PROIECT DRONA\display_lee_path\for_testing\display_lee_path.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at D:\PROIECT DRONA\display_lee_path\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 4 minutes and 41 seconds.
